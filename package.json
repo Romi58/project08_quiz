@@ -1,0 +1,21 @@
+{
+  "name": "project08_quiz",
+  "version": "1.0.0",
+  "description": "this project will show the students multiple choice questions and promt the user to reply. In the end it will show the students the result of the quiz.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/quiz.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.20"
+  },
+  "bin": {
+    "codeQuiz": "./dist/quiz.js"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
